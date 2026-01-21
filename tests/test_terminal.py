@@ -3,7 +3,7 @@
 import io
 import os
 import pytest
-from hooks_sessionindicator.terminal import (
+from amplifier_module_hooks_sessionindicator.terminal import (
     supports_status_line,
     get_terminal_width,
     StatusLine,

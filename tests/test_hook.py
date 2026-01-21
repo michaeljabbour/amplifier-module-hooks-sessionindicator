@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from unittest.mock import MagicMock, patch
 
 import pytest
-from hooks_sessionindicator.hook import SessionIndicatorHook, SessionState
+from amplifier_module_hooks_sessionindicator.hook import SessionIndicatorHook, SessionState
 
 
 class TestSessionState:

@@ -11,8 +11,8 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Any
 
-from hooks_sessionindicator.terminal import StatusLine, supports_status_line
-from hooks_sessionindicator.spinner import Spinner
+from amplifier_module_hooks_sessionindicator.terminal import StatusLine, supports_status_line
+from amplifier_module_hooks_sessionindicator.spinner import Spinner
 
 
 @dataclass

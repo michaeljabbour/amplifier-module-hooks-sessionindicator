@@ -10,16 +10,15 @@ Provides real-time visual feedback about session activity in the terminal:
 Usage in bundle:
     hooks:
       - module: hooks-sessionindicator
-        source: local
-        path: ~/dev/amplifier-module-hooks-sessionindicator
+        source: git+https://github.com/michaeljabbour/amplifier-module-hooks-sessionindicator@main
         config:
-          position: bottom      # bottom | top | inline
+          position: bottom      # bottom | inline
           show_tokens: true     # Show token counts
           show_elapsed: true    # Show elapsed time
           update_interval: 0.1  # Seconds between updates
 """
 
-from hooks_sessionindicator.hook import SessionIndicatorHook
+from amplifier_module_hooks_sessionindicator.hook import SessionIndicatorHook
 
 __all__ = ["SessionIndicatorHook", "mount"]
 __version__ = "0.1.0"

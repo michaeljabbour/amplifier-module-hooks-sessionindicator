@@ -1,7 +1,7 @@
 """Tests for spinner module."""
 
 import pytest
-from hooks_sessionindicator.spinner import Spinner, StatusSpinner, SPINNERS
+from amplifier_module_hooks_sessionindicator.spinner import Spinner, StatusSpinner, SPINNERS
 
 
 class TestSpinner:

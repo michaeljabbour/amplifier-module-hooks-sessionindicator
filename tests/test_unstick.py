@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from unittest.mock import MagicMock
 
 import pytest
-from hooks_sessionindicator.unstick import UnstickHandler, StuckDetection
+from amplifier_module_hooks_sessionindicator.unstick import UnstickHandler, StuckDetection
 
 
 class TestStuckDetection:
